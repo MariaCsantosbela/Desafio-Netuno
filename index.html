@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Netuno</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="logo">
+            <img src="./Assets_Netuno/assets/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#destaque">O Projeto</a></li>
+                <li><a href="#problema-section"> O Problema</a></li>
+                <li><a href="#sua-jornada">Sua Jornada</a></li>
+                <li><a href="#os-objetivos">Objetivos</a></li>
+            </ul>
+            <button type="submit" id="#processo-seletivo">
+                <a href="#participar-seleção">Processo Seletivo</a>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class=" container cadastro" id="participar-seleção" >
+            <div >
+                <img src="./Assets_Netuno/bannertopo.png" alt="bannertopo">
+            </div>
+            <aside >
+                <form class="form-dados">
+                    <h1>Formulário de Cadastro</h1>
+                    <h2>Preencha seus dados</h2>
+                    <ul id="dados-user">
+                        <li>
+                            <img src="./Assets_Netuno/icones/user.png" alt="user">
+                            <label for="nome"><input type="text" placeholder="Nome Completo *" required></label>
+                        </li>
+                        <li>
+                            <img src="./Assets_Netuno/icones/mail.png" alt="email">
+                            <label for="email"><input type="text" placeholder="E-mail *" required></label>
+                        </li>
+                        <li>
+                            <img src="./Assets_Netuno/icones/state.png" alt="estado">
+                            <label for="nome"><input type="text" placeholder="Estado * " required></label>
+                        </li>
+                    </ul>
+                    <h2 id="titulo-conhecimentos">Conhecimento de Programação *</h2>
+                    <ul id="conhecimentos-previos">
+                        <li id="conhecimento-linguagens">
+                            <li>
+                            <input type="checkbox"  name="linguagem" class="personalizado">
+                            <label for="HTML">HTML</label>
+                            </li>
+                            <li>
+                                <label for=".NET">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    .NET
+                                </label>
+                            </li>
+                            <li>
+                                <label for="Node">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    Node
+                                </label>
+                            </li>
+                            <li>
+                                <label for="CSS">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    CSS
+                                </label>
+                            </li>
+                            <li>
+                                <label for="Vue.JS">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    Vue.JS
+                                </label>
+                            </li>
+                            <li>
+                                <label for="Python">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    Python
+                                </label>
+                            </li>
+                            <li>
+                                <label for="javaScript">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    JavaScript
+                                </label>
+                            </li>
+                            <li>
+                                <label for="react JS">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    ReactJS
+                                </label>
+                            </li>
+                            <li>
+                                <label for="Fluter">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    Fluter
+                                </label>
+                            </li>
+                            <li>
+                                <label for="PHP">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    PHP
+                                </label>
+                            </li>
+                            <li>
+                                <label for="React Native">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    React Native
+                                </label>
+                            </li>
+                            <li>
+                                <label for="Outras">
+                                    <input type="checkbox" class="personalizado" name="linguagem">
+                                    Outras
+                                </label>
+                            </li>
+                        </li>
+                    </ul>
+                    <ul id="experiencia-desenvolvimen">
+                        <h3 >Já trabalhou com desenvolvimento ?</h3>
+                    <li id="confirma-experiencia">
+                        
+                            <label>
+                                <input type="checkbox" >
+                                Não
+                            </label>
+                            <label>
+                                <input type="checkbox" >
+                                Sim
+                            </label>
+                    </li>
+                        <li id="campo-obrigatorio">
+                            
+                                <h3>(*) Campos obrigatórios</h3>
+                            <button type="submit">Enviar</button>
+                            <p>
+                                Ao clicar em enviar, você concorda com todos os termos
+                                de uso de dados descritos em <strong>política de privacidade</strong>. 
+                            </p>
+                        </li>
+                    </ul>
+                </form>
+            </aside>
+        </section>
+        <section class=" container projeto" >
+            
+            <div id="codigo">
+                <img src="./Assets_Netuno/dev.png" alt="codigo-img">
+            </div>
+            
+            <div class="paragrafo-projeto" id="destaque">
+                <article>
+                    <h2>O Projeto</h2>
+                    <p>
+                        Com o "novo normal" causado pela pandemia  dos ultimos anos,
+                        mais empresas no mundo todo têm aberto oportunidades Home Office.
+                        Alinhado a depreciação da moeda local, temos um alto índice de profissionais 
+                        migrando para trabalhos em outros paises.
+                    </p>
+                    <br>
+                    <p>
+                        <strong>
+                            O Projeto Netuno, idealizado pela Fasters, tem por objetivo 
+                            reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais. 
+                        </strong>
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class=" container problema" id="problema-section">
+            <div class="container  image-article">
+                <img src="./Assets_Netuno/Container2.png" alt="container2">
+                <article id="texto-sobre-oproblema" >
+                    <h2>O Problema</h2>
+                    <p id="segundo-paragrafo">
+                        <strong>
+                            Falta de profissionais de TI no Mercado brasileiro:
+                            um problema que demanda atenção urgente.
+                        </strong>
+                    </p>
+                        <br>
+                    <p >
+                        Estima-se que atualmente tenhamos um déficit de 408 mil postos
+                        de trabalho, com perdas se acumulando na casa dos R$ 167 bilhões, 
+                        de acordo com a Softex, uma organização social voltada ao fomento da área de TI.
+                        <br>
+                        <strong>Um dos principais fatores dessa falta de profissionais é o 
+                            êxodo de profissionais para o exterior.
+                    </p>
+                </article>    
+            </div>
+            <div class="asides">
+            <aside class="aside-item">
+                <h3>Oportunidade</h3>
+                <p>Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impactonas pessoas, nas organizações e no mundo.</p>
+            </aside>
+            <aside class="aside-item">
+                <h3>Comunidade</h3>
+                <p>Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluida e eficiente. </p>
+            </aside>
+            <aside class="aside-item">
+                <h3>Experiência Real</h3>
+                <p>Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não pode fazer.</p>
+            </aside>
+        </div>
+        </section>
+        <section class="container objetivos" id="sua-jornada">
+            <div class="images-objetivos">
+                <img src="./Assets_Netuno/Elements/Vector2.png" alt="vetor">
+                <img class="mirror" src="./Assets_Netuno/Elements/Vector2.png" alt="vetor-Espelhado">
+            </div>
+            <h1>Sua Jornada</h1>
+            
+    <ul class="listas-objetivos">
+        <li>
+            <img src="./Assets_Netuno/icones/calendario.png" alt="calendario">
+            <p>Programa de 4 messes de duração, sendo 6 horas/dia. </p>
+        </li>
+        <li>
+            <img src="./Assets_Netuno/icones/home.png"   alt="home">
+            <p>Mentoria individual e coletiva em padrão ágil. </p>
+        </li>
+        <li>
+            <img src="./Assets_Netuno/icones/medalha.png" alt="medalha">
+            <p>Do Zero ao Júnior Promissor em 4 messes. </p>
+        </li>
+        <li>
+            <img src="./Assets_Netuno/icones/group.png" alt="grupo">
+            <p>100% Home Office com plataformas de cursos online. </p>
+        </li>
+        <li>
+            <img src="./Assets_Netuno/icones/relogio.png" alt="relogio">
+            <p>640 horas de aplicação prática dos conceitos. </p>
+        </li>
+        <li>
+            <img src="./Assets_Netuno/icones/target.png" alt="target">
+            <p>Variedades de áreas dentro da tecnologia. </p>
+        </li>
+    </ul>
+    <button id="cadastrar-projeto" type="menu" >
+    <a href="#participar-seleção"> Quero me cadastrar para o <strong>Processo Seletivo</strong></a><img src="./Assets_Netuno/icones/enter.png" alt="enter"></button>
+    <img  id="logo-final"   src="./Assets_Netuno/Elements/Vector1.png" alt="vetor1" >
+        </section>
+
+        <section class="container section-objetivos" id="os-objetivos">
+                <h1>Objetivos</h1>
+                <div class="asides-objetivos" >
+                    <aside >
+                        <h3>Otimizar</h3>
+                        <p>Otimizar todo processo de contratação chegando á contribuir com uma economia de 40% no processo de recrutamento.</p>
+                    </aside>
+                    <aside>
+                        <h3>Gerar</h3>
+                        <p>Gerar novas oportunidades de carreiras  para pessoas interessadas  em engressar na área ou migrar de outras áreas que esteja descontente.</p>
+                    </aside>
+                    <aside>
+                        <h3>Filtrar</h3>
+                        <p>Criar oportunidades brilhantes para profissionais que se destacarem junta a parceiros estratégicos de negócios. </p>
+                    </aside>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container redes-sociais">
+            <img src="./Assets_Netuno/assets/logo+slogan.png" alt="logo-netuno">
+            <ul >
+                <li>
+                    <a href="#">
+                        <img src="./Assets_Netuno/icones/fb.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Assets_Netuno/icones/ig.png" alt="ig">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Assets_Netuno/icones/in.png" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+            <p id="copy">
+                2024 &copy; Netuno - Todos os direitos reservados.
+            </p>
+        </div>
+        <div id="seletivo">
+            <button type="submit"><a href="#participar-seleção"> Processo Seletivo</a></button>
+        </div>
+        <div class="links-rapidos">
+            <ul id="navegacao-rapida">
+                <li><a href="#destaque">O Projeto</a></li>
+                <li><a href="#problema-section">O Problema</a></li>
+                <li><a href="#sua-jornada">Sua Jornada</a></li>
+                <li><a href="#os-objetivos">Objetivos</a></li> 
+            </ul>
+            <ul id="contatos">
+                
+                <li>
+                    <h3>Contato</h3>
+                    <p>11 91234.5678</p>
+                    <p><a href="mailto:seuemail@example.com">contato@netuno.com.br</a></p>
+                </li>  
+            </ul>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
